@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Sans_Thai } from "next/font/google";
 import "./globals.css";
-import HomeButton from "../component/HomeButton";
+import HomeButton from "./component/HomeButton";
 
 const noto_sans_thai = Noto_Sans_Thai({ subsets: ["latin"] });
 
