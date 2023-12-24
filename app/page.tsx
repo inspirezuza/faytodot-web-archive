@@ -12,11 +12,14 @@ export default function Home() {
               สำหรับใช้เก็บเว็บไว้ก็อป style tailwind
             </div>
 
-            <div className="text-cyan-400 hover:text-cyan-600">
-              <Link href="/discordnavbar">discordnavbar</Link>
-            </div>
+            <Link
+              href="/discordnavbar"
+              className="text-cyan-400 hover:text-cyan-600"
+            >
+              discordnavbar
+            </Link>
           </div>
-          <div className="fixed bottom-[96px] right-6">
+          <div className="fixed bottom-[90px] right-6">
             กดกลับหน้าหลักตรงนี้
           </div>
         </div>
