@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div className="h-screen bg-slate-600">
-      <div className="fixed left-0 top-0 m-0 flex h-screen w-16 flex-col bg-primary italic text-secondary shadow">
+      <div className="fixed left-0 top-0 m-0 flex h-screen w-16 flex-col bg-primary text-secondary shadow">
         <SideBarIcon icon={<FaFire size="28" />} />
         <SideBarIcon icon={<BsPlus size="32" />} />
         <SideBarIcon icon={<BsFillLightningFill size="20" />} />

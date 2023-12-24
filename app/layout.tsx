@@ -17,8 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <HomeButton />
-      <body className={noto_sans_thai.className}>{children}</body>
+      <body className={noto_sans_thai.className}>
+        <HomeButton />
+        {children}
+      </body>
     </html>
   );
 }
